@@ -1,0 +1,17 @@
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\obj\Debug\TrainTest.csprojAssemblyReference.cache
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\obj\Debug\TrainTest.csproj.CoreCompileInputs.cache
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\bin\Debug\TrainTest.dll
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\bin\Debug\TrainTest.pdb
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\bin\Debug\Circustrein.exe
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\bin\Debug\Circustrein.pdb
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\bin\Debug\Circustrein.exe.config
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\obj\Debug\TrainTest.csproj.CopyComplete
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\obj\Debug\TrainTest.dll
+C:\Users\Nielz\source\repos\Circustrein\TrainTest\obj\Debug\TrainTest.pdb
