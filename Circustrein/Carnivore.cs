@@ -10,11 +10,7 @@ namespace Circustrein
     {
         public override bool CanEat(Animal animal)
         {
-            if(animal.Size < Size)
-            {
-                return true;
-            }
-            return false;
+            return (animal.Size <= Size);
         }
         public Carnivore(AnimalSize size) : base(size)
         {

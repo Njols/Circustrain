@@ -59,10 +59,7 @@ namespace Circustrein
                 }
                 return true;
             }
-            else
-            {
-                return false;
-            }
+            return false;
         }
     }
 }
