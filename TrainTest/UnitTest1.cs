@@ -63,5 +63,12 @@ namespace TrainTest
             train.coolAddAnimalToWagon(new Herbivore(AnimalSize.small));
             Assert.AreEqual(train.Wagons[0].Animals.Count, 4);
         }
+        [TestMethod]
+        public void CarnivoreEatsAnimalsSameSize ()
+        {
+            Train train = new Train();
+            train.addGroupOfAnimals(new List<Animal> { new Herbivore(AnimalSize.medium), new Carnivore(AnimalSize.medium) });
+            Assert.AreEqual(train.Wagons.Count, 2);
+        }
     }
 }

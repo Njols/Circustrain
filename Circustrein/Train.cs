@@ -41,9 +41,8 @@ namespace Circustrein
         {
             foreach (Wagon wagon in wagons)
             {
-                if (wagon.CanAddAnimalToWagon(animal))
+                if (wagon.TryToAddAnimal(animal))
                 {
-                    wagon.addAnimal(animal);
                     return;
                 }
             }

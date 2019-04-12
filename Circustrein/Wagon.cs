@@ -13,9 +13,13 @@ namespace Circustrein
         {
             get { return animals; }
         }
-        public void addAnimal (Animal animal)
+        public bool TryToAddAnimal (Animal animal)
         {
-            animals.Add(animal);
+            if(CanAddAnimalToWagon(animal))
+            {
+                animals.Add(animal);
+            }
+            return (CanAddAnimalToWagon(animal));
         }
         public int Occupancy
         {
@@ -44,20 +48,14 @@ namespace Circustrein
         {
             if (Occupancy + (int)animal.Size <= 10)
             {
-                List<Animal> coolAnimals = new List<Animal>();
-                coolAnimals.Add(animal);
-                coolAnimals.AddRange(Animals);
-                foreach (Animal Animal in coolAnimals)
+                foreach(Animal Animal in Animals)
                 {
-                    foreach (Animal _animal in coolAnimals)
+                    if (Animal.CanEat(animal) || animal.CanEat(Animal))
                     {
-                        if (Animal.CanEat(_animal))
-                        {
-                            return false;
-                        }
+                        return false;
                     }
+                    return true;
                 }
-                return true;
             }
             return false;
         }
