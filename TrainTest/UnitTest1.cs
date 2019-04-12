@@ -40,7 +40,7 @@ namespace TrainTest
 
         }
         [TestMethod]
-        public void AddsCorrectAmountOfAnimals ()
+        public void AddsCorrectAmountOfWagons ()
         {
             Train train = new Train();
             List<Animal> animals = new List<Animal> { new Herbivore(AnimalSize.big), new Herbivore(AnimalSize.big),new Herbivore(AnimalSize.big) };

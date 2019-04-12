@@ -18,8 +18,9 @@ namespace Circustrein
             if(CanAddAnimalToWagon(animal))
             {
                 animals.Add(animal);
+                return true;
             }
-            return (CanAddAnimalToWagon(animal));
+            return false;
         }
         public int Occupancy
         {
